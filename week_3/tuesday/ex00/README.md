@@ -27,7 +27,7 @@ y_2: 1
 The distance between points (3, 2) and (9, 1) is 6.083
 ```
 
-## Case 2
+### Case 2
 ```
 Point 1: (x_1, y_1):
 x_1: -2
