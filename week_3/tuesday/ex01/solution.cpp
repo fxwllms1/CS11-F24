@@ -13,5 +13,4 @@ int main() {
   } else {
     cout << "A phone number should be 10 integers in length." << endl;
   }
-	return 0;
 }
