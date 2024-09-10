@@ -5,7 +5,7 @@ int main() {
 	string phone; 
 
   cout << "Enter a phone number: ";
-	cin >> phone;
+  cin >> phone;
 
   if (phone.length() == 10) {
     cout << "(" << phone.substr(0, 3) << ") ";
