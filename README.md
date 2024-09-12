@@ -14,7 +14,7 @@
     sudo apt-get install git
     ```
 
-## 0️.2 Installing git (Cygwin)
+## 0.2 Installing git (Cygwin)
 If you have Cygwin on your windows device, when you were installing, Cygwin gave you the option to install additional packages, one of these was for Git. Chances are you did not install this, but we can add packages after installation (kinda). There is no package management in Cygwin outside of the setup program, so you will have to run `setup-x86_64.exe` again. 
 1. Open `File Explore` then to `Downloads` on your device
 2. Search for `setup-x86_64.exe` and open the file
@@ -30,7 +30,7 @@ If you have Cygwin on your windows device, when you were installing, Cygwin gave
 
 <br>
 
-## 0️.3 Installing git (Mac and Linux)
+## 0.3 Installing git (Mac and Linux)
 1. By default, git should be installed on Mac and Linux systems
 2. Confirm git is installed by running the following command in your terminal
     ```sh
@@ -65,7 +65,7 @@ GitHub is the free web based platform we and many other software engineers use t
 
 <br>
 
-## 2️.1 Set up SSH (Cygwin)
+## 2.1 Set up SSH (Cygwin)
 1. Open Cygwin as Administrator and enter the following command to configure SSH
     ```sh
     ssh-host-config
