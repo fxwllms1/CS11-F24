@@ -41,7 +41,7 @@ If you have Cygwin on your windows device, when you were installing, Cygwin gave
 
 <br>
 
-## 1️ Create a GitHub account
+## 1 Create a GitHub account
 GitHub is the free web based platform we and many other software engineers use to share and collaborate on projects as well as control version history.
 <img width="1440" alt="Screen Shot 2023-09-10 at 7 39 35 AM" src="https://github.com/steph1111/F23_CS11_SI/assets/96219204/0ed2d5d9-7b63-4953-8a56-3bfe7901db79">
 
@@ -79,12 +79,12 @@ GitHub is the free web based platform we and many other software engineers use t
 
 <br>
 
-## 2️ Set up SSH (Mac, Linux, WSL)
+## 2.2 Set up SSH (Mac, Linux, WSL)
 1. SSH should already be on Mac and Linux systems
 
 <br>
 
-## 3️ Generate an SSH key
+## 3 Generate an SSH key
 1. Generate an SSH key to connect your system to your GitHub account
     ```sh
     ssh-keygen
@@ -98,7 +98,7 @@ GitHub is the free web based platform we and many other software engineers use t
 
 <br>
 
-## 4️ Add the SSH key to GitHub
+## 4 Add the SSH key to GitHub
 1. Return to GitHub and open your settings by clicking on your icon then ⚙️ `settings`
 2. Scroll to  🔑 `SSH and GPG keys`
 
@@ -111,7 +111,7 @@ GitHub is the free web based platform we and many other software engineers use t
 
 <br>
 
-## 5️⃣ Fork the repo to your account
+## 5 Fork the repo to your account
 1. Open the `CS11-F24` GitHub repo in your browser: https://github.com/steph1111/CS11-F24
 2. At the top of the page click on <img width="80" alt="fork" src="https://github.com/steph1111/F23_CS11_SI/assets/96219204/007c608d-9d06-4db9-bee0-eaae1cd0343d">
 
@@ -123,7 +123,7 @@ GitHub is the free web based platform we and many other software engineers use t
 
 <br>
 
-## 6️ Clone your forked repo to your system
+## 6 Clone your forked repo to your system
 1. Open your forked repo. At the top of the page click the green <img width="70" alt="code" src="https://github.com/steph1111/F23_CS11_SI/assets/96219204/e6ab5cd8-2adf-44bd-8dab-865fefea6429">
  button. Open the SSH tab and copy the link
 
@@ -144,7 +144,7 @@ GitHub is the free web based platform we and many other software engineers use t
 
 # Maintaining your repo
 
-## 0️ Sync and pull the changes
+## 0 Sync and pull the changes
 I will be updating my upstream version of your repo before SI sessions to add new content. In order to get the new content into your forked repo you must sync and pull the changes. *Every time* you want to work on your repo I recommend heading to your forked repo and seeing if there are upstream changes to be synced and pulled
 1. Open your forked repo in GitHub. If there are no changes you should see a message that looks like the following stating this branch is up to date. If this is the case it means I have not made changes and you can ignore the following steps.
     ![up_to_date](https://github.com/steph1111/F23_CS11_SI/assets/96219204/a67537ba-91e8-4ec6-907d-8181b769b281)
