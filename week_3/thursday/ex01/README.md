@@ -7,34 +7,35 @@ If statements are the foundation of control flow in most programming languages. 
 <img width="208" alt="calculator_graphic" src="https://i.imgur.com/URRg4nH.png">
 
 ## Hints
-1. Use a whiteboard to draw out the flow of the program. What are the possible calculations we want to do based on the variables provided. Which variables "tell us" which calculation we want to do?
-2. How can we use a comparison operator on one of our variables to figure out which calculation we should compute?
+1. Use `if` statements to determine which operation the user specified. Should you use `if`, `if`, `if` or `if`, `else if`, `else`?
+2. Compute the desired calculation
+2. Output the result
 
 
 ## Test Cases
+### Case 1
 ```
-Test 1:
 Enter the first number: 35
 Which operation? (* / + -): +
 Enter the second number: 35
 Result is: 70
 ```
+### Case 2
 ```
-Test 2:
 Enter the first number: 89
 Which operation? (* / + -): -
 Enter the second number: 27
 Result is: 62
 ```
+### Case 3
 ```
-Test 3:
 Enter the first number: 3.14159
 Which operation? (* / + -): *
 Enter the second number: 1.41421
 Result is: 4.44287
 ```
+### Case 4
 ```
-Test 4:
 Enter the first number: 24
 Which operation? (* / + -): /
 Enter the second number: 7
