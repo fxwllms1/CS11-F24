@@ -6,7 +6,7 @@ If statements are the foundation of control flow in most programming languages. 
 
 <img width="208" alt="calculator_graphic" src="https://i.imgur.com/URRg4nH.png">
 
-## Hints
+## Instructions
 1. Use `if` statements to determine which operation the user specified. Should you use `if`, `if`, `if` or `if`, `else if`, `else`?
 2. Compute the desired calculation
 2. Output the result
