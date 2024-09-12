@@ -2,7 +2,7 @@
 **Objective:** Write a program which finds the smallest of three numbers
 
 ## Background information 
-Calculating the minimum of three numbers is a fundamental part of a heap data structure which you will learn about in CS-21. 
+Calculating the minimum of three numbers is a fundamental part of a min heap data structure which you will learn about in CS-21. 
 
 ## Instructions
 1. Use a series of decision making statements to find the smallest value entered.
