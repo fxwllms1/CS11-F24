@@ -3,6 +3,7 @@
 
 ## Background information 
 Exponentiation is a mathematical operation involving two numbers a base ($b$) and a power ($n$). The base multiplied by itself $n$ times.
+
 $$b^n = b \times b \times b \times b ...$$
 
 $$2^3 = 2 \times 2 \times 2 = 8$$
