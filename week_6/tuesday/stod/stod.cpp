@@ -34,7 +34,7 @@ int main() {
         }
 
         for (int i = 0; i < input.length(); i = i + 1) {
-            input[input.length() - i - 1]
+            input[input.length() - i - 1];
         }
     } else {
         cout << "not a valid number\n";

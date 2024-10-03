@@ -16,12 +16,12 @@ $$\Delta x = \frac{b - a}{n}$$
 
 $$x_i = a + i\Delta x$$
 
-The number of subdivisions, $n$, must be an even number. The more subdivisions, the better the approximation will be.
+The more subdivisions ($n$), the better the approximation will be.
 ### Example
 See white board. 
 
 ## Steps
-1. Calculate the area under the function $f(x) = x^2 between $a = 0$ and $b = 4$ with $n$.
+1. Calculate the area under the function $f(x) = x^2$ between $a = 0$ and $b = 4$ with $n$.
 
 
 ## Test Cases
