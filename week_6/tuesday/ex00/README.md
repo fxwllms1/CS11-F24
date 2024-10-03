@@ -1,52 +1,41 @@
 # Instructions
-**Objective:** Use a while loop to find the max and sum of an undefined amount of user input. 
+**Objective:** Write a program that computes an estimate for the area under a curve (the definite integral of a function).
 
 ## Background information 
-A sentinel value is a known, predefined value which is utilized in algorithms to denote a special case. In the following program, `0` will be our sentinel value.
+The integral of a function gives the net area under a curve within an interval. The following denotes the integral (area under the curve) of function $f(x)$ between $x = a$ and $x = b$.
 
-## Instructions
-*Modified from CS24 Program #1*
-1. Repeatedly take input for a number. 
-2. The program should stop when it gets an input that is `0` (so that means that the `0` itself is not an input value).
-3. If no values were entered (i.e. the first input is a zero) then output "no input."
-4. Output out the sum and the maximum value of all of the values that were input.
+$$\int^{b}_a f(x) dx$$
+
+In MATH-5B you will learn how to exactly compute definite integrals of functions, today we will look at a simplified version in which we approximate the area smaller and smaller rectangles. This is called a Reiman sum and is defined as the following.
+
+$$\sum^{n}_{i = 1}f(x_i)\Delta x$$
+
+Where $f(x)$ is some function continuous $\forall x \in [a, b]$ (for all $x$ between $a$ and $b$).
+
+$$\Delta x = \frac{b - a}{n}$$
+
+$$x_i = a + i\Delta x$$
+
+The number of subdivisions, $n$, must be an even number. The more subdivisions, the better the approximation will be.
+### Example
+See white board. 
+
+## Steps
+1. Calculate the area under the function $f(x) = x^2 between $a = 0$ and $b = 4$ with $n$.
 
 
-## Test cases
-### Case 1
-```sh
-12
-6
-5
-2
-98
-0
-Max: 98
-Sum: 123
+## Test Cases
+### Case 1 (n = 4)
 ```
-
-### Case 2 (`case2.txt`)
-```sh
-❯ ./a.out < case2.txt
-Max: 1820
-Sum: 1223
+The area below the polynomial x^2 between x = 0 and x = 4 is 14
 ```
-
-### Case 3 (`case3.txt`)
-```sh
-❯ ./a.out < case3.txt
-Max: -1
-Sum: -75
+### Case 2 (n = 100)
 ```
-### Case 4 (`case4.txt`)
-```sh
-❯ ./a.out < case4.txt
-Max: 18201
-Sum: 34641
+The area below the polynomial x^2 between x = 0 and x = 4 is 21.0144
 ```
-
-### Case 5 (`case5.txt`)
-```sh
-❯ ./a.out < case5.txt
-No input
+### Case 3 (n = 100,000)
 ```
+The area below the polynomial x^2 between x = 0 and x = 4 is 21.3337
+```
+Note the actual value is:
+$$\frac{64}{3} \approx 21.333333...$$
