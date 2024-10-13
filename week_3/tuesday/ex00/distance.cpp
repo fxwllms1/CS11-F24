@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {   // testing git commit.
+    cout << "That worked!" << endl;
     // What data type should your variables x_1, y_1, x_2, y_2 be?
 
     cout << "Point 1: (x_1, y_1):" << endl;
