@@ -19,7 +19,21 @@ int main() {
 
 	//-------------------- YOUR CODE BELOW -------------------------
 
+	if (op_symbol[0] == '+') {
+		result = number1 + number2; 
+	}
 
+	else if (op_symbol[0] == '-') {
+		result = number1 - number2; 
+	}
+
+	else if (op_symbol[0] == '*') {
+		result = number1 * number2; 
+	}
+
+	else if (op_symbol[0] == '/') {
+		result = number1 / number2; 
+	}
 
 
 
