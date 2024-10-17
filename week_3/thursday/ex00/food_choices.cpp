@@ -17,19 +17,19 @@ int main() {
 
 	// ------------ ONLY WORK ON CODE BELOW -------------
 
-	if (/* Your Code */) {
+	if (has_carrots == 0) {
 		cout << "Bought carrots." << endl;
 	}
-	if (/* Your code */) {
+	if (has_apples == 0) {
 		cout << "Bought apples." << endl;
 	}
-	if (/* Your code */) {
+	if (has_milk == 0) {
 		cout << "Bought milk." << endl;
 	}
-	if (/* Your code */) {
+	if (has_bread == 0) {
 		cout << "Bought bread." << endl;
 	}
-	if (/* Your code */) {
+	if (has_pears == 0) {
 		cout << "Bought pears." << endl;
 	}
 
@@ -42,7 +42,7 @@ int main() {
 	bool has_salad = false; 
 	bool has_soup = false; 
 
-	switch(rand() % 4) {
+	switch(rand() % 2) {
 		case (0):
 			has_pizza = true;
 		case (1):
@@ -55,13 +55,13 @@ int main() {
 
 	// ------------ ONLY WORK ON CODE BELOW -------------
 
-	if (/* Your code */) {
+	if (has_pizza == true) {
 		cout << "Bought pizza." << endl;
-	} else if (/* Your code */) {
+	} else if (has_pasta == true) {
 		cout << "Bought pasta." << endl;
-	} else if (/* Your code */) {
+	} else if (has_salad == true) {
 		cout << "Bought salad." << endl;
-	} else if (/* Your code */) {
+	} else if (has_soup == true) {
 		cout << "Bought soup." << endl;
 	} else {
 		cout << "Bought whatever they had." << endl;
