@@ -11,6 +11,8 @@ int main() {
     cout << "Enter the power: ";
     cin >> n;
 
+    result = pow(b, n);
+
     // Your code here
 
     cout << b << "^" << n << " = " << result << endl;
