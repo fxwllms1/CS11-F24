@@ -13,4 +13,4 @@ Be sure to retain the following coding practices:
     ```cpp
     percent1 = count1 / word1.size() * 100; percent2 = count2 / word2.size() * 100;
     ```
-5. Do not use arrays, just to make sure everyone is on the same playing field here
+5. Do not use arrays (you would not need a function anymore so yeah...)
