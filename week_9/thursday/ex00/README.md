@@ -8,7 +8,7 @@ Header `<cmath>` declares a set of functions to compute common mathematical oper
 1. Write code for the following functions:
     - [`pow()`](https://cplusplus.com/reference/cmath/pow/) -> `power()`
     - [`fabs()`](https://cplusplus.com/reference/cmath/fabs/) -> `absolute()`
-    - [`round()`]() -> `rounded()`
+    - [`round()`](https://cplusplus.com/reference/cmath/round/) -> `rounded()`
 
 ## Test cases
 ### Case 1
