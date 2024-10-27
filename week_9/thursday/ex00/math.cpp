@@ -14,7 +14,16 @@ using namespace std;
  * @param n Power the `b` is raised to
  * @return `b` raised to the `n`th power.
  */
-// power()
+    int power(int b, int n) {
+        // return pow(b, n);
+        int base = b;
+        int solution = 1;
+        for(int i = 1; i < n; i++) {
+            b *= base;
+            solution = b; 
+        }
+        return solution;
+    }
 
 /**
  * The magnitude of a real number `n` without regard to its sign.
@@ -22,7 +31,12 @@ using namespace std;
  * @param n Number to take the absolute value of
  * @return Absolute value of `n`
  */
-// absolute()
+double absolute(double n) {
+    if(n < 0) {
+        n *= -1;
+    }
+    return n;
+}
 
 
 /**
@@ -32,7 +46,10 @@ using namespace std;
  * @param n Value to round.
  * @return n rounded.
  */
-// rounded()
+double rounded(double a) {
+    int final = a + .5;
+    return final;
+}
 
 
 int main() {
@@ -44,15 +61,15 @@ int main() {
 
     // Assertion test for power()
     // assert(pow(b, n) == power(b, n));
-    // cout << pow(b, n) << " == " << power(b, n) << endl;
+    cout << pow(b, n) << " == " << power(b, n) << endl;
 
     // Assertion test for absolute()
     // assert(fabs(a) == absolute(a));
-    // cout << fabs(a) << " == " << absolute(a) << endl;
+    cout << fabs(a) << " == " << absolute(a) << endl;
 
     // Assertion test for rounded()
     // assert(round(a) == rounded(a));
-    // cout << round(a) << " == " << rounded(a) << endl;
+    cout << round(a) << " == " << rounded(a) << endl;
 
     return 0;
 }
