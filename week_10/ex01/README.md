@@ -1,9 +1,23 @@
 # Instructions
-**Objective:** Recrate the "Magic 8 Ball".
+**Objective:** Write a function which counts the frequency an element appears in an array.
 
 ## Background information
-A [Magic 8 Ball](https://en.wikipedia.org/wiki/Magic_8_Ball) is a fortune-telling toy that reveals answers to yes-or-no questions. The eight ball has twenty possible answers, ten positive, five negative, and five non-committal.
-![Eight ball graphic](/assets/img/8ball.png)
-
+Replicates python's `count()` method.
+  
 ## Steps
-1. Output a random element from the provided `responses` array.
+1. Write code for the following function stub:
+    ```cpp
+    /**
+     * Returns the count of number of elements of specified value.
+     * 
+     * @param a Container of elements. 
+     * @param size Size of container.
+     * @param target Element to count frequency.
+     * @return Number of times `target` appears in `a`.
+     */
+    int frequency(string a[], int size, string target);
+    ```
+
+## Test cases
+### Case 1
+Run your program with the assertion tests. See [`assert`](https://en.cppreference.com/w/cpp/error/assert).
