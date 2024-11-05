@@ -12,4 +12,21 @@ Remember a vector is resizable, elements may be added to the back using `.push_b
 
 ## Test cases
 ### Case 1
-See printed tests.
+```
+8 27 16 2 1 2
+1
+2
+2
+8
+16
+27
+```
+### Case 2
+```
+0 8 -2 1 9
+-2
+0
+1
+8
+9
+```
