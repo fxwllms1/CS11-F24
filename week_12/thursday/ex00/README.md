@@ -43,3 +43,8 @@ Finally, it is worth mentioning the [`delay()`](https://docs.arduino.cc/language
 7. Use `digitalWrite()` to send a `LOW` signal to the specified pin to turn the LED off.
 8. Delay the program again using `delay()`
 9. Build the simulation with the play button.
+
+## Working example
+[`blink.cpp` simulated](https://wokwi.com/projects/414506195790206977)
+
+![Hardware](/assets/img/blink.png)
