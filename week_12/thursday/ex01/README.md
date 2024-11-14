@@ -14,4 +14,4 @@ A [breadboard](https://en.wikipedia.org/wiki/Breadboard) is often used to protot
 ## Working example
 [`traffic_light.cpp` simulated](https://wokwi.com/projects/414400094759394305)
 
-![Hardware](/assets/img/traffic_light.png)
+![Hardware](/assets/img/traffic.png)
