@@ -3,9 +3,9 @@
 
 ## Background information
 ### What is a breadboard
-A [breadboard](https://en.wikipedia.org/wiki/Breadboard) is often used to prototype circuits as it provides a means to easily connect various components. Certain holes on a breadboard are connected. The four vertical columns of holes (two on the far left and two on the far right) are called power rails. All holes in one of these rows are connected. It is common to attach one ground and power supply to two of these rails and use that for various components in the circuit. In the center of the breadboard, horizontal rows of pins called terminal strips are connected, divided by a ravine.
+A [breadboard](https://en.wikipedia.org/wiki/Breadboard) is often used to prototype circuits as it provides a means to easily connect various components. Certain holes on a breadboard are connected. The four vertical columns of holes (two on the far left and two on the far right) are called power rails. All holes in one of these rows are connected. It is common to attach one ground and power supply to two of these rails and use that for various components in the circuit. In the center of the breadboard, horizontal rows of holes called terminal strips are connected, divided by a ravine.
 
-<img width="400" alt="Breadboard" src="/assets/img/breadboard.png">
+<img width="300" alt="Breadboard" src="https://github.com/steph1111/CS11-F24/blob/main/assets/img/breadboard.png?raw=true">
 
 ## Steps
 1. Go to the Arduino simulator [website](https://wokwi.com/projects/new/arduino-uno).
@@ -13,3 +13,5 @@ A [breadboard](https://en.wikipedia.org/wiki/Breadboard) is often used to protot
 
 ## Working example
 [`traffic_light.cpp` simulated](https://wokwi.com/projects/414400094759394305)
+
+![Hardware](/assets/img/traffic_light.png)
