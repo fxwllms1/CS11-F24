@@ -46,5 +46,4 @@ Finally, it is worth mentioning the [`delay()`](https://docs.arduino.cc/language
 
 ## Working example
 [`blink.cpp` simulated](https://wokwi.com/projects/414506195790206977)
-
 ![Hardware](/assets/img/blink.png)
