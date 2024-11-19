@@ -18,6 +18,6 @@ In arduino we have the function [`analogWrite()`](https://docs.arduino.cc/langua
 5. Use [`analogWrite()`](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/) to write increasing values between `0` and `255` to the pin with a slight delay in between. The result should be a light which starts off and then slowly increases to max brightness then repeats.  
 
 ## Working example
-[`rgb.cpp` simulated](https://wokwi.com/projects/415014003533562881)
+[`dimmed.cpp` simulated](https://wokwi.com/projects/415014003533562881)
 
 ![Hardware](/assets/img/dimmed.png)
