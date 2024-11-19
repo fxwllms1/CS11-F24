@@ -10,7 +10,7 @@ To explore RGB values, try searching for a *color picker* on google. Experiment 
 
 ## Steps
 1. Go to the Arduino simulator [website](https://wokwi.com/projects/new/arduino-uno).
-2. Wire the circut for a RGB light (be sure to choose common cathode).
+2. Wire the circuit for a RGB light (be sure to choose common cathode).
 3. Create global variables for the `RED`, `GREEN`, and `BLUE` pins.
 4. Set the `pinMode()` for each pin.
 5. Create a function which takes in three parameters, `red`, `green` and `blue` which are integer values assumed to be between `0` and `255`. Use `analogWrite()` to write each value to the corresponding pin.
