@@ -19,4 +19,5 @@ In arduino we have the function [`analogWrite()`](https://docs.arduino.cc/langua
 
 ## Working example
 [`rgb.cpp` simulated](https://wokwi.com/projects/415014003533562881)
+
 ![Hardware](/assets/img/dimmed.png)
