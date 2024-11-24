@@ -34,6 +34,6 @@ int main() {
     getline(cin, input);
 
     // Output a random element from the array
-
+    cout << responses[rand() % SIZE] << endl;
     return 0;
 }
