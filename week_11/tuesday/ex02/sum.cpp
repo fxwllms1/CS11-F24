@@ -13,7 +13,15 @@ using namespace std;
  * @param a, b Set of elements
  * @return a + b
  */
-vector<int> minkowski_sum(vector<int> a, vector<int> b);
+vector<int> minkowski_sum(vector<int> a, vector<int> b) {
+    vector<int> total;
+    for (int i = 0; i < a.size(); i++) {
+        for (int j = 0; j < b.size(); j++) {
+            total.push_back(a[i] + b[j]);
+        }
+    }
+    return total;
+}
 
 void print(vector <int> a);
 
