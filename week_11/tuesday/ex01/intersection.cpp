@@ -27,7 +27,15 @@ bool contains(vector<int> a, int target) {
  * @param a, b Set of elements
  * @return a ∩ b
  */
-vector<int> intersection(vector<int> a, vector<int> b);
+vector<int> intersection(vector<int> a, vector<int> b) {
+    vector<int> total;
+    for (int i = 0; i < a.size(); i++) {
+        if (contains(b, a[i]) && !contains(total, a[i])) {
+            total.push_back(a[i]);
+        }
+    }
+    return total;
+}
 
 // For testing, do not writing anything here
 void print(vector <int> a);
